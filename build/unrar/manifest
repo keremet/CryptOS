@@ -1,4 +1,4 @@
-set name=pkg.fmri value=secos/unrar@5.30.2,0.5.11-0.151.1.7
+set name=pkg.fmri value=cryptos/unrar@5.30.2,0.5.11-0.151.1.7
 set name=pkg.summary value="unrar"
 set name=pkg.description value="unrar"
 set name=info.upstream-url value=http://www.rarlab.com/rar_add.htm

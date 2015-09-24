@@ -1,4 +1,4 @@
-set name=pkg.fmri value=secos/gcc@5.2.0,0.5.11-0.151.1.7
+set name=pkg.fmri value=cryptos/gcc@5.2.0,0.5.11-0.151.1.7
 set name=pkg.summary value="gcc"
 set name=pkg.description value="gcc"
 set name=info.upstream-url value=https://gcc.gnu.org/
