@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Type=Application
+Exec=layout_ru.sh
+Hidden=false
+X-GNOME-Autostart-enabled=true
+Name[ru_RU]=Keyboard layout EN/RU
+Name=Keyboard layout EN/RU
+Comment[ru_RU]=
+Comment=

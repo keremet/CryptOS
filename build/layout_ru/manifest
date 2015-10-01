@@ -1,0 +1,12 @@
+set name=pkg.fmri value=cryptos/layout_ru@1,0.5.11-0.151.1.7
+set name=pkg.description value="Russian and English keyboard layout"
+set name=pkg.summary value="Russian and English keyboard layout"
+set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"
+set name=variant.arch value=i386
+dir group=sys mode=0755 owner=root path=usr
+dir group=bin mode=0755 owner=root path=usr/bin
+dir group=sys mode=0755 owner=root path=usr/share
+file layout_ru.sh group=bin mode=0755 owner=root path=usr/bin/layout_ru.sh
+dir group=other mode=0755 owner=root path=usr/share/gnome
+dir group=bin mode=0755 owner=root path=usr/share/gnome/autostart
+file layout_ru.sh.desktop group=bin mode=0644 owner=root path=usr/share/gnome/autostart/layout_ru.sh.desktop
