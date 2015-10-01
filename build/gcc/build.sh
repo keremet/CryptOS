@@ -35,3 +35,5 @@ CFLAGS="-O3" CXXFLAGS="-O3" $PWD/../gcc-5.2.0/configure --enable-languages=c,c++
 export PATH=/usr/local/bin:$PATH
 make_all
 make install
+
+publish_pkg
