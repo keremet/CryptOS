@@ -20,6 +20,11 @@ cashed_download ftp://gcc.gnu.org/pub/gcc/infrastructure/mpfr-2.4.2.tar.bz2
 cashed_download ftp://gcc.gnu.org/pub/gcc/infrastructure/gmp-4.3.2.tar.bz2
 cashed_download ftp://gcc.gnu.org/pub/gcc/infrastructure/mpc-0.8.1.tar.gz
 cashed_download ftp://gcc.gnu.org/pub/gcc/infrastructure/isl-0.14.tar.bz2
+
+#xmms
+cashed_download http://www.xmms.org/files/1.2.x/xmms-1.2.11.tar.bz2
+
+#gtk
 cashed_download http://cairographics.org/releases/cairo-1.14.2.tar.xz
 cashed_download http://cairographics.org/releases/pixman-0.32.6.tar.gz
-#cashed_download
+
