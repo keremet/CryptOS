@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Firefox 31 Web Browser
+Name[ru]=Firefox 31 Веб-браузер
+GenericName=Web Browser
+Comment=Browse the worldwide web 
+Comment[ru]=Работать в интернете
+Exec=/opt/sfw/bin/firefox
+TryExec=/opt/sfw/bin/firefox
+Icon=firefox31-icon.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Application;Network;X-Sun-Quick-Start;
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;

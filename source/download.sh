@@ -24,6 +24,9 @@ cashed_download ftp://gcc.gnu.org/pub/gcc/infrastructure/isl-0.14.tar.bz2
 #xmms
 cashed_download http://www.xmms.org/files/1.2.x/xmms-1.2.11.tar.bz2
 
+#firefox31
+cashed_download http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/31.0/contrib/solaris_pkgadd/firefox-31.0.en-US.opensolaris-i386-pkg.bz2
+
 #gtk
 cashed_download http://cairographics.org/releases/cairo-1.14.2.tar.xz
 cashed_download http://cairographics.org/releases/pixman-0.32.6.tar.gz
