@@ -1,4 +1,4 @@
-set name=pkg.fmri value=secos/firefox31@31,0.5.11-0.151.1.7
+set name=pkg.fmri value=cryptos/firefox31@31,0.5.11-0.151.1.7
 set name=pkg.description value="Firefox 31"
 set name=pkg.summary value="Firefox 31"
 set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"
@@ -17,77 +17,77 @@ dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/defaults
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/webapprt
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/icons
-file opt/sfw/lib/firefox/libnss3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnss3.so
-file opt/sfw/lib/firefox/libxul.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libxul.so
-file opt/sfw/lib/firefox/mozilla-xremote-client group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/mozilla-xremote-client
-file opt/sfw/lib/firefox/firefox-bin group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/firefox-bin
-file opt/sfw/lib/firefox/webapprt-stub group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/webapprt-stub
-file opt/sfw/lib/firefox/libsoftokn3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libsoftokn3.so
-file opt/sfw/lib/firefox/update-settings.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/update-settings.ini
-file opt/sfw/lib/firefox/libsmime3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libsmime3.so
-file opt/sfw/lib/firefox/libnssdbm3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnssdbm3.so
-file opt/sfw/lib/firefox/libssl3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libssl3.so
-file opt/sfw/lib/firefox/libnspr4.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnspr4.so
-file opt/sfw/lib/firefox/plugin-container group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/plugin-container
-file opt/sfw/lib/firefox/application.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/application.ini
-file opt/sfw/lib/firefox/omni.ja group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/omni.ja
-file opt/sfw/lib/firefox/dependentlibs.list group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/dependentlibs.list
-file opt/sfw/lib/firefox/run-mozilla.sh group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/run-mozilla.sh
-file opt/sfw/lib/firefox/removed-files group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/removed-files
-file opt/sfw/lib/firefox/libmozalloc.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libmozalloc.so
-file opt/sfw/lib/firefox/updater group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/updater
-file opt/sfw/lib/firefox/libmozsqlite3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libmozsqlite3.so
-file opt/sfw/lib/firefox/libnssckbi.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnssckbi.so
-file opt/sfw/lib/firefox/libfreebl3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libfreebl3.so
-file opt/sfw/lib/firefox/libnssdbm3.chk group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/libnssdbm3.chk
-file opt/sfw/lib/firefox/updater.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/updater.ini
-file opt/sfw/lib/firefox/libplds4.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libplds4.so
-file opt/sfw/lib/firefox/chrome.manifest group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/chrome.manifest
-file opt/sfw/lib/firefox/libnssutil3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnssutil3.so
-file opt/sfw/lib/firefox/libfreebl3.chk group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/libfreebl3.chk
-file opt/sfw/lib/firefox/libsoftokn3.chk group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/libsoftokn3.chk
-file opt/sfw/lib/firefox/libplc4.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libplc4.so
-file opt/sfw/lib/firefox/platform.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/platform.ini
-file opt/sfw/lib/firefox/precomplete group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/precomplete
-file opt/sfw/lib/firefox/firefox group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/firefox
-file opt/sfw/lib/firefox/components/libdbusservice.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/components/libdbusservice.so
-file opt/sfw/lib/firefox/components/components.manifest group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/components/components.manifest
-file opt/sfw/lib/firefox/components/libmozgnome.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/components/libmozgnome.so
-file opt/sfw/lib/firefox/dictionaries/en-US.dic group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/dictionaries/en-US.dic
-file opt/sfw/lib/firefox/dictionaries/en-US.aff group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/dictionaries/en-US.aff
+file root/opt/sfw/lib/firefox/libnss3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnss3.so
+file root/opt/sfw/lib/firefox/libxul.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libxul.so
+file root/opt/sfw/lib/firefox/mozilla-xremote-client group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/mozilla-xremote-client
+file root/opt/sfw/lib/firefox/firefox-bin group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/firefox-bin
+file root/opt/sfw/lib/firefox/webapprt-stub group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/webapprt-stub
+file root/opt/sfw/lib/firefox/libsoftokn3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libsoftokn3.so
+file root/opt/sfw/lib/firefox/update-settings.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/update-settings.ini
+file root/opt/sfw/lib/firefox/libsmime3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libsmime3.so
+file root/opt/sfw/lib/firefox/libnssdbm3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnssdbm3.so
+file root/opt/sfw/lib/firefox/libssl3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libssl3.so
+file root/opt/sfw/lib/firefox/libnspr4.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnspr4.so
+file root/opt/sfw/lib/firefox/plugin-container group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/plugin-container
+file root/opt/sfw/lib/firefox/application.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/application.ini
+file root/opt/sfw/lib/firefox/omni.ja group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/omni.ja
+file root/opt/sfw/lib/firefox/dependentlibs.list group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/dependentlibs.list
+file root/opt/sfw/lib/firefox/run-mozilla.sh group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/run-mozilla.sh
+file root/opt/sfw/lib/firefox/removed-files group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/removed-files
+file root/opt/sfw/lib/firefox/libmozalloc.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libmozalloc.so
+file root/opt/sfw/lib/firefox/updater group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/updater
+file root/opt/sfw/lib/firefox/libmozsqlite3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libmozsqlite3.so
+file root/opt/sfw/lib/firefox/libnssckbi.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnssckbi.so
+file root/opt/sfw/lib/firefox/libfreebl3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libfreebl3.so
+file root/opt/sfw/lib/firefox/libnssdbm3.chk group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/libnssdbm3.chk
+file root/opt/sfw/lib/firefox/updater.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/updater.ini
+file root/opt/sfw/lib/firefox/libplds4.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libplds4.so
+file root/opt/sfw/lib/firefox/chrome.manifest group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/chrome.manifest
+file root/opt/sfw/lib/firefox/libnssutil3.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libnssutil3.so
+file root/opt/sfw/lib/firefox/libfreebl3.chk group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/libfreebl3.chk
+file root/opt/sfw/lib/firefox/libsoftokn3.chk group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/libsoftokn3.chk
+file root/opt/sfw/lib/firefox/libplc4.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/libplc4.so
+file root/opt/sfw/lib/firefox/platform.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/platform.ini
+file root/opt/sfw/lib/firefox/precomplete group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/precomplete
+file root/opt/sfw/lib/firefox/firefox group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/firefox
+file root/opt/sfw/lib/firefox/components/libdbusservice.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/components/libdbusservice.so
+file root/opt/sfw/lib/firefox/components/components.manifest group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/components/components.manifest
+file root/opt/sfw/lib/firefox/components/libmozgnome.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/components/libmozgnome.so
+file root/opt/sfw/lib/firefox/dictionaries/en-US.dic group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/dictionaries/en-US.dic
+file root/opt/sfw/lib/firefox/dictionaries/en-US.aff group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/dictionaries/en-US.aff
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/icons
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/searchplugins
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/extensions
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/components
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/chrome
-file opt/sfw/lib/firefox/browser/omni.ja group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/omni.ja
-file opt/sfw/lib/firefox/browser/blocklist.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/blocklist.xml
-file opt/sfw/lib/firefox/browser/chrome.manifest group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/chrome.manifest
-file opt/sfw/lib/firefox/browser/icons/mozicon128.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/icons/mozicon128.png
-file opt/sfw/lib/firefox/browser/searchplugins/yahoo.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/yahoo.xml
-file opt/sfw/lib/firefox/browser/searchplugins/twitter.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/twitter.xml
-file opt/sfw/lib/firefox/browser/searchplugins/bing.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/bing.xml
-file opt/sfw/lib/firefox/browser/searchplugins/amazondotcom.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/amazondotcom.xml
-file opt/sfw/lib/firefox/browser/searchplugins/wikipedia.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/wikipedia.xml
-file opt/sfw/lib/firefox/browser/searchplugins/eBay.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/eBay.xml
-file opt/sfw/lib/firefox/browser/searchplugins/google.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/google.xml
+file root/opt/sfw/lib/firefox/browser/omni.ja group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/omni.ja
+file root/opt/sfw/lib/firefox/browser/blocklist.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/blocklist.xml
+file root/opt/sfw/lib/firefox/browser/chrome.manifest group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/chrome.manifest
+file root/opt/sfw/lib/firefox/browser/icons/mozicon128.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/icons/mozicon128.png
+file root/opt/sfw/lib/firefox/browser/searchplugins/yahoo.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/yahoo.xml
+file root/opt/sfw/lib/firefox/browser/searchplugins/twitter.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/twitter.xml
+file root/opt/sfw/lib/firefox/browser/searchplugins/bing.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/bing.xml
+file root/opt/sfw/lib/firefox/browser/searchplugins/amazondotcom.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/amazondotcom.xml
+file root/opt/sfw/lib/firefox/browser/searchplugins/wikipedia.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/wikipedia.xml
+file root/opt/sfw/lib/firefox/browser/searchplugins/eBay.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/eBay.xml
+file root/opt/sfw/lib/firefox/browser/searchplugins/google.xml group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/searchplugins/google.xml
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
-file opt/sfw/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
-file opt/sfw/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/icon.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/icon.png
-file opt/sfw/lib/firefox/browser/components/libbrowsercomps.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/components/libbrowsercomps.so
-file opt/sfw/lib/firefox/browser/components/components.manifest group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/components/components.manifest
+file root/opt/sfw/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/install.rdf
+file root/opt/sfw/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/icon.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}/icon.png
+file root/opt/sfw/lib/firefox/browser/components/libbrowsercomps.so group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/components/libbrowsercomps.so
+file root/opt/sfw/lib/firefox/browser/components/components.manifest group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/components/components.manifest
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/chrome/icons
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/chrome/icons/default
-file opt/sfw/lib/firefox/browser/chrome/icons/default/default16.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/chrome/icons/default/default16.png
-file opt/sfw/lib/firefox/browser/chrome/icons/default/default32.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/chrome/icons/default/default32.png
-file opt/sfw/lib/firefox/browser/chrome/icons/default/default48.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/chrome/icons/default/default48.png
+file root/opt/sfw/lib/firefox/browser/chrome/icons/default/default16.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/chrome/icons/default/default16.png
+file root/opt/sfw/lib/firefox/browser/chrome/icons/default/default32.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/chrome/icons/default/default32.png
+file root/opt/sfw/lib/firefox/browser/chrome/icons/default/default48.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/browser/chrome/icons/default/default48.png
 dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/defaults/pref
-file opt/sfw/lib/firefox/defaults/pref/channel-prefs.js group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/defaults/pref/channel-prefs.js
-file opt/sfw/lib/firefox/webapprt/webapprt.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/webapprt/webapprt.ini
-file opt/sfw/lib/firefox/webapprt/omni.ja group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/webapprt/omni.ja
-file opt/sfw/lib/firefox/icons/updater.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/icons/updater.png
+file root/opt/sfw/lib/firefox/defaults/pref/channel-prefs.js group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/defaults/pref/channel-prefs.js
+file root/opt/sfw/lib/firefox/webapprt/webapprt.ini group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/webapprt/webapprt.ini
+file root/opt/sfw/lib/firefox/webapprt/omni.ja group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/webapprt/omni.ja
+file root/opt/sfw/lib/firefox/icons/updater.png group=bin mode=0644 owner=root path=opt/sfw/lib/firefox/icons/updater.png
 dir group=sys mode=0755 owner=root path=usr/share
 dir group=other mode=0755 owner=root path=usr/share/applications
 dir group=other mode=0755 owner=root path=usr/share/pixmaps
-file usr/share/applications/firefox31.desktop group=bin mode=0444 owner=root path=usr/share/applications/firefox31.desktop
-file usr/share/pixmaps/firefox31-icon.png group=bin mode=0644 owner=root path=usr/share/pixmaps/firefox31-icon.png
+file firefox31.desktop group=bin mode=0444 owner=root path=usr/share/applications/firefox31.desktop
+file root/opt/sfw/share/pixmaps/firefox-icon.png group=bin mode=0644 owner=root path=usr/share/pixmaps/firefox31-icon.png
