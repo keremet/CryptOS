@@ -1,0 +1,17 @@
+set name=pkg.fmri value=cryptos/libflashplayer@11.2,0.5.11-0.151.1.7
+set name=pkg.description value="Shockwave Flash"
+set name=pkg.summary value="Shockwave Flash"
+set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"
+set name=variant.arch value=i386
+dir group=sys mode=0755 owner=root path=usr
+dir group=bin mode=0755 owner=root path=usr/lib
+dir group=bin mode=0755 owner=root path=usr/lib/firefox
+dir group=bin mode=0755 owner=root path=usr/lib/firefox/plugins
+file libflashplayer.so group=bin mode=0755 owner=root path=usr/lib/firefox/plugins/libflashplayer.so
+dir group=sys mode=0755 owner=root path=opt
+dir group=bin mode=0755 owner=root path=opt/sfw
+dir group=bin mode=0755 owner=root path=opt/sfw/lib
+dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox
+dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser
+dir group=bin mode=0755 owner=root path=opt/sfw/lib/firefox/browser/plugins
+link path=opt/sfw/lib/firefox/browser/plugins/libflashplayer.so target=/usr/lib/firefox/plugins/libflashplayer.so
