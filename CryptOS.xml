@@ -24,7 +24,7 @@
     live CD iso and usb image
 -->
 
-<distribution name="CryptOS_150925">
+<distribution name="CryptOS_151005">
 	<distro_constr_params>
 		<!--
 		     Where to build. This can be a zfs dataset or a mountpoint.
@@ -215,8 +215,8 @@
 		-->
 		<pkg_repo_addl_authority>
 			<main
-				url="file:///export/repo_secos/"
-				authname="secos"/>
+				url="file:///export/repo_cryptos/"
+				authname="cryptos"/>
 		</pkg_repo_addl_authority>
 		<!--
 		     The default preferred authority to be used by the system
@@ -271,17 +271,17 @@
 			<pkg name="pkg:/desktop/file-manager/gnome-commander"/>
 			<pkg name="pkg:/image/editor/gimp"/>
 			<pkg name="pkg:/editor/diagram/dia"/>
-			<pkg name="pkg:/secos/libflashplayer"/>
-			<pkg name="pkg:/secos/firefox31"/>
-			<pkg name="pkg:/secos/mplayer"/>
-			<pkg name="pkg:/secos/gajim"/>
-			<pkg name="pkg:/secos/openoffice_ru"/>
-			<pkg name="pkg:/secos/gpa"/>
-			<pkg name="pkg:/secos/layout_ru"/>
-			<pkg name="pkg:/secos/libgstflump3dec"/>
+			<pkg name="pkg:/cryptos/libflashplayer"/>
+			<pkg name="pkg:/cryptos/firefox31"/>
+			<!--pkg name="pkg:/secos/mplayer"/>
+			<pkg name="pkg:/secos/gajim"/-->
+			<pkg name="pkg:/cryptos/openoffice_ru"/>
+			<!--pkg name="pkg:/secos/gpa"/-->
+			<pkg name="pkg:/cryptos/layout_ru"/>
+			<!--pkg name="pkg:/secos/libgstflump3dec"/>
 			<pkg name="pkg:/secos/ntfs-3g"/>
-			<pkg name="pkg:/secos/fuse"/>
-			<pkg name="pkg:/secos/unrar"/>
+			<pkg name="pkg:/secos/fuse"/-->
+			<pkg name="pkg:/cryptos/unrar"/>
 			<pkg name="pkg:/cryptos/crzvol"/>
 			<pkg name="pkg:/communication/conferencing/ekiga"/>
 			<pkg name="pkg:/gnome/media/sound-recorder"/>
@@ -315,7 +315,7 @@
 			    the first line of /etc/release will be used as
 			    the title for the grub menu
 			-->
-			<title>CryptOS_150925</title>
+			<title>CryptOS_151005</title>
 
 			<entry>
 				<title_suffix>Enable SSH</title_suffix>
