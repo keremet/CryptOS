@@ -13,4 +13,6 @@ CFLAGS="-O3" ./configure --prefix=/usr/local/xmms-1.2.11
 make_all
 make install
 
+cd ..
 
+publish_pkg
