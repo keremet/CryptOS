@@ -1,0 +1,9 @@
+set name=pkg.fmri value=cryptos/libgstflump3dec@0.10.32,0.5.11-0.151.1.7
+set name=pkg.description value="GStreamer MP3 plugin"
+set name=pkg.summary value="GStreamer MP3 plugin"
+set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"
+set name=variant.arch value=i386
+dir group=sys mode=0755 owner=root path=usr
+dir group=bin mode=0755 owner=root path=usr/lib
+dir group=bin mode=0755 owner=root path=usr/lib/gstreamer-0.10
+file gst-fluendo-mp3-0.10.32/src/.libs/libgstflump3dec.so group=bin mode=0755 owner=root path=usr/lib/gstreamer-0.10/libgstflump3dec.so

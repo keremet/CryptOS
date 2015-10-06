@@ -2,7 +2,7 @@
 cashed_download(){
 	FILENAME=`basename $1`
 	if ! [ -f $FILENAME ]; then
-		curl -L $1 > $FILENAME
+		curl -k -L $1 > $FILENAME
 		if [ $? -ne 0 ]; then
 			echo "Ошибка скачивания файла $1"
 			exit 1
@@ -23,6 +23,9 @@ cashed_download ftp://gcc.gnu.org/pub/gcc/infrastructure/isl-0.14.tar.bz2
 
 #xmms
 cashed_download http://www.xmms.org/files/1.2.x/xmms-1.2.11.tar.bz2
+
+#libgstflump3dec
+cashed_download https://launchpad.net/gst-fluendo-mp3/trunk/0.10.32/+download/gst-fluendo-mp3-0.10.32.tar.bz2
 
 #firefox31
 cashed_download http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/31.0/contrib/solaris_pkgadd/firefox-31.0.en-US.opensolaris-i386-pkg.bz2
