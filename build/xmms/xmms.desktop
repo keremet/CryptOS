@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=XMMS
+Name[ru]=XMMS
+GenericName=XMMS
+Comment=Audioplayer
+Comment[ru]=Аудиопроигрыватель
+Exec=/usr/local/xmms-1.2.11/bin/xmms
+TryExec=/usr/local/xmms-1.2.11/bin/xmms
+Icon=wmxmms.xpm
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;AudioVideo;Audio;
