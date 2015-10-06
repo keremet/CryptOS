@@ -33,6 +33,17 @@ cashed_download http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/31.0/con
 #openoffice
 cashed_download http://www.openfoundry.org/of/download_path/osscd/3.4.0m1_Rev1227012/OOo_3.4.0_Solaris_x86_install_ru.tar.gz
 
+#gpa
+cashed_download ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.19.tar.bz2
+cashed_download ftp://ftp.gnupg.org/gcrypt/libassuan/libassuan-2.2.1.tar.bz2
+cashed_download ftp://ftp.gnupg.org/gcrypt/gpgme/gpgme-1.5.5.tar.bz2
+cashed_download ftp://ftp.gnupg.org/gcrypt/gpa/gpa-0.9.7.tar.bz2
+cashed_download ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.6.3.tar.bz2
+cashed_download ftp://ftp.gnupg.org/gcrypt/libksba/libksba-1.3.3.tar.bz2
+cashed_download ftp://ftp.gnupg.org/gcrypt/npth/npth-1.2.tar.bz2
+cashed_download ftp://ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.6.tar.bz2
+cashed_download ftp://ftp.gnupg.org/gcrypt/pinentry/pinentry-0.9.5.tar.bz2
+
 #gtk
 cashed_download http://cairographics.org/releases/cairo-1.14.2.tar.xz
 cashed_download http://cairographics.org/releases/pixman-0.32.6.tar.gz

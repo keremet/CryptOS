@@ -1,0 +1,332 @@
+set name=pkg.fmri value=secos/gpa@0.9.7,0.5.11-0.151.1.7
+set name=pkg.description value="GPA 0.9.7"
+set name=pkg.summary value="GPA 0.9.7"
+set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"
+set name=info.upstream-url value=ftp://ftp.gnupg.org/gcrypt/
+set name=variant.arch value=i386
+dir group=sys mode=0755 owner=root path=usr
+dir group=bin mode=0755 owner=root path=usr/local
+dir group=sys mode=0755 owner=root path=usr/share
+dir group=bin mode=0755 owner=root path=usr/local/gpa
+dir group=bin mode=0755 owner=root path=usr/local/gpa/sbin
+dir group=bin mode=0755 owner=root path=usr/local/gpa/include
+dir group=bin mode=0755 owner=root path=usr/local/gpa/bin
+dir group=bin mode=0755 owner=root path=usr/local/gpa/lib
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share
+dir group=bin mode=0755 owner=root path=usr/local/gpa/libexec
+file gpa.sh group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpa.sh
+file /usr/local/gpa/sbin/applygnupgdefaults group=bin mode=0755 owner=root path=usr/local/gpa/sbin/applygnupgdefaults
+file /usr/local/gpa/sbin/addgnupghome group=bin mode=0755 owner=root path=usr/local/gpa/sbin/addgnupghome
+file /usr/local/gpa/include/assuan.h group=bin mode=0644 owner=root path=usr/local/gpa/include/assuan.h
+file /usr/local/gpa/include/npth.h group=bin mode=0644 owner=root path=usr/local/gpa/include/npth.h
+file /usr/local/gpa/include/gpg-error.h group=bin mode=0644 owner=root path=usr/local/gpa/include/gpg-error.h
+file /usr/local/gpa/include/gpgme.h group=bin mode=0644 owner=root path=usr/local/gpa/include/gpgme.h
+file /usr/local/gpa/include/ksba.h group=bin mode=0644 owner=root path=usr/local/gpa/include/ksba.h
+file /usr/local/gpa/include/gcrypt.h group=bin mode=0644 owner=root path=usr/local/gpa/include/gcrypt.h
+file /usr/local/gpa/bin/pinentry-gtk-2 group=bin mode=0755 owner=root path=usr/local/gpa/bin/pinentry-gtk-2
+file /usr/local/gpa/bin/hmac256 group=bin mode=0755 owner=root path=usr/local/gpa/bin/hmac256
+file /usr/local/gpa/bin/gpgme-config group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpgme-config
+file /usr/local/gpa/bin/pinentry-emacs group=bin mode=0755 owner=root path=usr/local/gpa/bin/pinentry-emacs
+file /usr/local/gpa/bin/gpg-error-config group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpg-error-config
+file /usr/local/gpa/bin/gpg-error group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpg-error
+file /usr/local/gpa/bin/mpicalc group=bin mode=0755 owner=root path=usr/local/gpa/bin/mpicalc
+link path=usr/local/gpa/bin/pinentry target=pinentry-gtk-2
+file /usr/local/gpa/bin/gpg-agent group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpg-agent
+file /usr/local/gpa/bin/gpgsm-gencert.sh group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpgsm-gencert.sh
+file /usr/local/gpa/bin/gpgtar group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpgtar
+file /usr/local/gpa/bin/dumpsexp group=bin mode=0755 owner=root path=usr/local/gpa/bin/dumpsexp
+file /usr/local/gpa/bin/gpg-connect-agent group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpg-connect-agent
+file /usr/local/gpa/bin/libgcrypt-config group=bin mode=0755 owner=root path=usr/local/gpa/bin/libgcrypt-config
+file /usr/local/gpa/bin/gpgkey2ssh group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpgkey2ssh
+file /usr/local/gpa/bin/libassuan-config group=bin mode=0755 owner=root path=usr/local/gpa/bin/libassuan-config
+file /usr/local/gpa/bin/gpgconf group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpgconf
+file /usr/local/gpa/bin/gpg2 group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpg2
+file /usr/local/gpa/bin/watchgnupg group=bin mode=0755 owner=root path=usr/local/gpa/bin/watchgnupg
+file /usr/local/gpa/bin/gpgparsemail group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpgparsemail
+file /usr/local/gpa/bin/pinentry-curses group=bin mode=0755 owner=root path=usr/local/gpa/bin/pinentry-curses
+file /usr/local/gpa/bin/ksba-config group=bin mode=0755 owner=root path=usr/local/gpa/bin/ksba-config
+file /usr/local/gpa/bin/gpgsm group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpgsm
+file /usr/local/gpa/bin/gpa group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpa
+file /usr/local/gpa/bin/gpgme-tool group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpgme-tool
+file /usr/local/gpa/bin/kbxutil group=bin mode=0755 owner=root path=usr/local/gpa/bin/kbxutil
+file /usr/local/gpa/bin/g13 group=bin mode=0755 owner=root path=usr/local/gpa/bin/g13
+file /usr/local/gpa/bin/npth-config group=bin mode=0755 owner=root path=usr/local/gpa/bin/npth-config
+file /usr/local/gpa/bin/gpgv2 group=bin mode=0755 owner=root path=usr/local/gpa/bin/gpgv2
+link path=usr/local/gpa/lib/libgpg-error.so.0 target=libgpg-error.so.0.15.0
+link path=usr/local/gpa/lib/libnpth.so.0 target=libnpth.so.0.0.5
+link path=usr/local/gpa/lib/libgpg-error.so target=libgpg-error.so.0.15.0
+link path=usr/local/gpa/lib/libassuan.so.0 target=libassuan.so.0.5.1
+file /usr/local/gpa/lib/libnpth.so.0.0.5 group=bin mode=0755 owner=root path=usr/local/gpa/lib/libnpth.so.0.0.5
+file /usr/local/gpa/lib/libgpg-error.so.0.15.0 group=bin mode=0755 owner=root path=usr/local/gpa/lib/libgpg-error.so.0.15.0
+file /usr/local/gpa/lib/libgpgme-pthread.so.11.13.4 group=bin mode=0755 owner=root path=usr/local/gpa/lib/libgpgme-pthread.so.11.13.4
+link path=usr/local/gpa/lib/libksba.so.8 target=libksba.so.8.11.4
+file /usr/local/gpa/lib/libgpg-error.la group=bin mode=0755 owner=root path=usr/local/gpa/lib/libgpg-error.la
+file /usr/local/gpa/lib/libgcrypt.so.20.0.3 group=bin mode=0755 owner=root path=usr/local/gpa/lib/libgcrypt.so.20.0.3
+link path=usr/local/gpa/lib/libassuan.so target=libassuan.so.0.5.1
+file /usr/local/gpa/lib/libgpgme-pthread.la group=bin mode=0755 owner=root path=usr/local/gpa/lib/libgpgme-pthread.la
+file /usr/local/gpa/lib/libgpgme.la group=bin mode=0755 owner=root path=usr/local/gpa/lib/libgpgme.la
+link path=usr/local/gpa/lib/libgcrypt.so target=libgcrypt.so.20.0.3
+link path=usr/local/gpa/lib/libksba.so target=libksba.so.8.11.4
+link path=usr/local/gpa/lib/libgpgme-pthread.so.11 target=libgpgme-pthread.so.11.13.4
+link path=usr/local/gpa/lib/libnpth.so target=libnpth.so.0.0.5
+file /usr/local/gpa/lib/libksba.so.8.11.4 group=bin mode=0755 owner=root path=usr/local/gpa/lib/libksba.so.8.11.4
+file /usr/local/gpa/lib/libksba.la group=bin mode=0755 owner=root path=usr/local/gpa/lib/libksba.la
+file /usr/local/gpa/lib/libnpth.la group=bin mode=0755 owner=root path=usr/local/gpa/lib/libnpth.la
+file /usr/local/gpa/lib/libassuan.so.0.5.1 group=bin mode=0755 owner=root path=usr/local/gpa/lib/libassuan.so.0.5.1
+file /usr/local/gpa/lib/libgpgme.so.11.13.4 group=bin mode=0755 owner=root path=usr/local/gpa/lib/libgpgme.so.11.13.4
+link path=usr/local/gpa/lib/libgpgme.so target=libgpgme.so.11.13.4
+file /usr/local/gpa/lib/libgcrypt.la group=bin mode=0755 owner=root path=usr/local/gpa/lib/libgcrypt.la
+link path=usr/local/gpa/lib/libgcrypt.so.20 target=libgcrypt.so.20.0.3
+link path=usr/local/gpa/lib/libgpgme.so.11 target=libgpgme.so.11.13.4
+link path=usr/local/gpa/lib/libgpgme-pthread.so target=libgpgme-pthread.so.11.13.4
+file /usr/local/gpa/lib/libassuan.la group=bin mode=0755 owner=root path=usr/local/gpa/lib/libassuan.la
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/man
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/doc
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/gnupg
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/info
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/pixmaps
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/common-lisp
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/gpa
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/aclocal
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/applications
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/man/man7
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/man/man8
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/man/man1
+file /usr/local/gpa/share/man/man7/gnupg.7 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man7/gnupg.7
+file /usr/local/gpa/share/man/man8/addgnupghome.8 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man8/addgnupghome.8
+file /usr/local/gpa/share/man/man8/applygnupgdefaults.8 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man8/applygnupgdefaults.8
+file /usr/local/gpa/share/man/man8/dirmngr.8 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man8/dirmngr.8
+file /usr/local/gpa/share/man/man1/hmac256.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/hmac256.1
+file /usr/local/gpa/share/man/man1/gpgconf.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpgconf.1
+file /usr/local/gpa/share/man/man1/scdaemon.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/scdaemon.1
+file /usr/local/gpa/share/man/man1/symcryptrun.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/symcryptrun.1
+file /usr/local/gpa/share/man/man1/gpg-zip.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpg-zip.1
+file /usr/local/gpa/share/man/man1/gpgparsemail.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpgparsemail.1
+file /usr/local/gpa/share/man/man1/gpgv2.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpgv2.1
+file /usr/local/gpa/share/man/man1/gpg-preset-passphrase.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpg-preset-passphrase.1
+file /usr/local/gpa/share/man/man1/gpgsm.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpgsm.1
+file /usr/local/gpa/share/man/man1/gpg-agent.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpg-agent.1
+file /usr/local/gpa/share/man/man1/dirmngr-client.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/dirmngr-client.1
+file /usr/local/gpa/share/man/man1/gpa.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpa.1
+file /usr/local/gpa/share/man/man1/gpg2.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpg2.1
+file /usr/local/gpa/share/man/man1/watchgnupg.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/watchgnupg.1
+file /usr/local/gpa/share/man/man1/gpg-connect-agent.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpg-connect-agent.1
+file /usr/local/gpa/share/man/man1/gpgsm-gencert.sh.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpgsm-gencert.sh.1
+file /usr/local/gpa/share/man/man1/gpg-error-config.1 group=bin mode=0644 owner=root path=usr/local/gpa/share/man/man1/gpg-error-config.1
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/doc/gnupg
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/doc/gnupg/examples
+file /usr/local/gpa/share/doc/gnupg/FAQ group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/FAQ
+file /usr/local/gpa/share/doc/gnupg/TRANSLATE group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/TRANSLATE
+file /usr/local/gpa/share/doc/gnupg/HACKING group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/HACKING
+file /usr/local/gpa/share/doc/gnupg/DETAILS group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/DETAILS
+file /usr/local/gpa/share/doc/gnupg/README group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/README
+file /usr/local/gpa/share/doc/gnupg/KEYSERVER group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/KEYSERVER
+file /usr/local/gpa/share/doc/gnupg/DCO group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/DCO
+file /usr/local/gpa/share/doc/gnupg/OpenPGP group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/OpenPGP
+file /usr/local/gpa/share/doc/gnupg/examples/README group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/examples/README
+file /usr/local/gpa/share/doc/gnupg/examples/pwpattern.list group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/examples/pwpattern.list
+file /usr/local/gpa/share/doc/gnupg/examples/gpgconf.conf group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/examples/gpgconf.conf
+file /usr/local/gpa/share/doc/gnupg/examples/trustlist.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/examples/trustlist.txt
+file /usr/local/gpa/share/doc/gnupg/examples/scd-event group=bin mode=0644 owner=root path=usr/local/gpa/share/doc/gnupg/examples/scd-event
+file /usr/local/gpa/share/gnupg/help.tr.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.tr.txt
+file /usr/local/gpa/share/gnupg/help.nb.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.nb.txt
+file /usr/local/gpa/share/gnupg/help.sk.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.sk.txt
+file /usr/local/gpa/share/gnupg/help.da.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.da.txt
+file /usr/local/gpa/share/gnupg/help.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.txt
+file /usr/local/gpa/share/gnupg/qualified.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/qualified.txt
+file /usr/local/gpa/share/gnupg/help.be.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.be.txt
+file /usr/local/gpa/share/gnupg/gpg-conf.skel group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/gpg-conf.skel
+file /usr/local/gpa/share/gnupg/help.pt_BR.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.pt_BR.txt
+file /usr/local/gpa/share/gnupg/help.pt.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.pt.txt
+file /usr/local/gpa/share/gnupg/help.it.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.it.txt
+file /usr/local/gpa/share/gnupg/help.sv.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.sv.txt
+file /usr/local/gpa/share/gnupg/help.gl.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.gl.txt
+file /usr/local/gpa/share/gnupg/help.es.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.es.txt
+file /usr/local/gpa/share/gnupg/help.et.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.et.txt
+file /usr/local/gpa/share/gnupg/help.hu.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.hu.txt
+file /usr/local/gpa/share/gnupg/help.eo.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.eo.txt
+file /usr/local/gpa/share/gnupg/help.fi.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.fi.txt
+file /usr/local/gpa/share/gnupg/help.ro.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.ro.txt
+file /usr/local/gpa/share/gnupg/help.el.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.el.txt
+file /usr/local/gpa/share/gnupg/com-certs.pem group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/com-certs.pem
+file /usr/local/gpa/share/gnupg/help.fr.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.fr.txt
+file /usr/local/gpa/share/gnupg/distsigkey.gpg group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/distsigkey.gpg
+file /usr/local/gpa/share/gnupg/help.ca.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.ca.txt
+file /usr/local/gpa/share/gnupg/help.pl.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.pl.txt
+file /usr/local/gpa/share/gnupg/help.cs.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.cs.txt
+file /usr/local/gpa/share/gnupg/help.zh_TW.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.zh_TW.txt
+file /usr/local/gpa/share/gnupg/help.ru.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.ru.txt
+file /usr/local/gpa/share/gnupg/help.ja.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.ja.txt
+file /usr/local/gpa/share/gnupg/help.zh_CN.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.zh_CN.txt
+file /usr/local/gpa/share/gnupg/help.id.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.id.txt
+file /usr/local/gpa/share/gnupg/help.de.txt group=bin mode=0644 owner=root path=usr/local/gpa/share/gnupg/help.de.txt
+file /usr/local/gpa/share/info/gnupg.info-1 group=bin mode=0644 owner=root path=usr/local/gpa/share/info/gnupg.info-1
+file /usr/local/gpa/share/info/ksba.info group=bin mode=0644 owner=root path=usr/local/gpa/share/info/ksba.info
+file /usr/local/gpa/share/info/gpgme.info-2 group=bin mode=0644 owner=root path=usr/local/gpa/share/info/gpgme.info-2
+file /usr/local/gpa/share/info/gcrypt.info group=bin mode=0644 owner=root path=usr/local/gpa/share/info/gcrypt.info
+file /usr/local/gpa/share/info/gpgrt.info group=bin mode=0644 owner=root path=usr/local/gpa/share/info/gpgrt.info
+file /usr/local/gpa/share/info/gnupg.info-2 group=bin mode=0644 owner=root path=usr/local/gpa/share/info/gnupg.info-2
+file /usr/local/gpa/share/info/gpgme.info-1 group=bin mode=0644 owner=root path=usr/local/gpa/share/info/gpgme.info-1
+file /usr/local/gpa/share/info/gpgme.info group=bin mode=0644 owner=root path=usr/local/gpa/share/info/gpgme.info
+file /usr/local/gpa/share/info/pinentry.info group=bin mode=0644 owner=root path=usr/local/gpa/share/info/pinentry.info
+file /usr/local/gpa/share/info/gnupg.info group=bin mode=0644 owner=root path=usr/local/gpa/share/info/gnupg.info
+file /usr/local/gpa/share/info/assuan.info group=bin mode=0644 owner=root path=usr/local/gpa/share/info/assuan.info
+file /usr/local/gpa/share/pixmaps/gpa.png group=bin mode=0644 owner=root path=usr/local/gpa/share/pixmaps/gpa.png
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/common-lisp/source
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/common-lisp/source/gpg-error
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/common-lisp/source/gpgme
+file /usr/local/gpa/share/common-lisp/source/gpg-error/gpg-error-package.lisp group=bin mode=0644 owner=root path=usr/local/gpa/share/common-lisp/source/gpg-error/gpg-error-package.lisp
+file /usr/local/gpa/share/common-lisp/source/gpg-error/gpg-error-codes.lisp group=bin mode=0644 owner=root path=usr/local/gpa/share/common-lisp/source/gpg-error/gpg-error-codes.lisp
+file /usr/local/gpa/share/common-lisp/source/gpg-error/gpg-error.asd group=bin mode=0644 owner=root path=usr/local/gpa/share/common-lisp/source/gpg-error/gpg-error.asd
+file /usr/local/gpa/share/common-lisp/source/gpg-error/gpg-error.lisp group=bin mode=0644 owner=root path=usr/local/gpa/share/common-lisp/source/gpg-error/gpg-error.lisp
+file /usr/local/gpa/share/common-lisp/source/gpgme/gpgme-package.lisp group=bin mode=0644 owner=root path=usr/local/gpa/share/common-lisp/source/gpgme/gpgme-package.lisp
+file /usr/local/gpa/share/common-lisp/source/gpgme/gpgme.asd group=bin mode=0644 owner=root path=usr/local/gpa/share/common-lisp/source/gpgme/gpgme.asd
+file /usr/local/gpa/share/common-lisp/source/gpgme/gpgme.lisp group=bin mode=0644 owner=root path=usr/local/gpa/share/common-lisp/source/gpgme/gpgme.lisp
+file /usr/local/gpa/share/gpa/gpa-logo.ppm group=bin mode=0644 owner=root path=usr/local/gpa/share/gpa/gpa-logo.ppm
+file /usr/local/gpa/share/gpa/gpa.png group=bin mode=0644 owner=root path=usr/local/gpa/share/gpa/gpa.png
+file /usr/local/gpa/share/aclocal/gpg-error.m4 group=bin mode=0644 owner=root path=usr/local/gpa/share/aclocal/gpg-error.m4
+file /usr/local/gpa/share/aclocal/ksba.m4 group=bin mode=0644 owner=root path=usr/local/gpa/share/aclocal/ksba.m4
+file /usr/local/gpa/share/aclocal/gpgme.m4 group=bin mode=0644 owner=root path=usr/local/gpa/share/aclocal/gpgme.m4
+file /usr/local/gpa/share/aclocal/npth.m4 group=bin mode=0644 owner=root path=usr/local/gpa/share/aclocal/npth.m4
+file /usr/local/gpa/share/aclocal/libgcrypt.m4 group=bin mode=0644 owner=root path=usr/local/gpa/share/aclocal/libgcrypt.m4
+file /usr/local/gpa/share/aclocal/libassuan.m4 group=bin mode=0644 owner=root path=usr/local/gpa/share/aclocal/libassuan.m4
+file /usr/local/gpa/share/applications/gpa.desktop group=bin mode=0644 owner=root path=usr/local/gpa/share/applications/gpa.desktop
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/it
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ro
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/pt_BR
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ca
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/sr
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/eo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/tr
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/sk
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/da
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/uk
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/de
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ja
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/vi
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/el
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/pt
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/fi
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/sv
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ru
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/id
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/cs
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/en@boldquot
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/zh_CN
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ar
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/fr
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/nl
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/zh_TW
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/nb
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/en@quot
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/et
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/hu
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/pl
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/es
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/gl
+link path=usr/local/gpa/share/locale/ru_RU.UTF-8 target=/usr/local/gpa/share/locale/ru
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/it/LC_MESSAGES
+file /usr/local/gpa/share/locale/it/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/it/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/it/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/it/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ro/LC_MESSAGES
+file /usr/local/gpa/share/locale/ro/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ro/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/ro/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ro/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/pt_BR/LC_MESSAGES
+file /usr/local/gpa/share/locale/pt_BR/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/pt_BR/LC_MESSAGES/gpa.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ca/LC_MESSAGES
+file /usr/local/gpa/share/locale/ca/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ca/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/sr/LC_MESSAGES
+file /usr/local/gpa/share/locale/sr/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/sr/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/eo/LC_MESSAGES
+file /usr/local/gpa/share/locale/eo/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/eo/LC_MESSAGES/libgpg-error.mo
+file /usr/local/gpa/share/locale/eo/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/eo/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/tr/LC_MESSAGES
+file /usr/local/gpa/share/locale/tr/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/tr/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/tr/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/tr/LC_MESSAGES/gpa.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/sk/LC_MESSAGES
+file /usr/local/gpa/share/locale/sk/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/sk/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/da/LC_MESSAGES
+file /usr/local/gpa/share/locale/da/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/da/LC_MESSAGES/libgpg-error.mo
+file /usr/local/gpa/share/locale/da/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/da/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/uk/LC_MESSAGES
+file /usr/local/gpa/share/locale/uk/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/uk/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/uk/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/uk/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/de/LC_MESSAGES
+file /usr/local/gpa/share/locale/de/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/de/LC_MESSAGES/libgpg-error.mo
+file /usr/local/gpa/share/locale/de/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/de/LC_MESSAGES/gpa.mo
+file /usr/local/gpa/share/locale/de/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/de/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ja/LC_MESSAGES
+file /usr/local/gpa/share/locale/ja/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ja/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/ja/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ja/LC_MESSAGES/gpa.mo
+file /usr/local/gpa/share/locale/ja/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ja/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/vi/LC_MESSAGES
+file /usr/local/gpa/share/locale/vi/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/vi/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/el/LC_MESSAGES
+file /usr/local/gpa/share/locale/el/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/el/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/pt/LC_MESSAGES
+file /usr/local/gpa/share/locale/pt/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/pt/LC_MESSAGES/libgpg-error.mo
+file /usr/local/gpa/share/locale/pt/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/pt/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/fi/LC_MESSAGES
+file /usr/local/gpa/share/locale/fi/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/fi/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/sv/LC_MESSAGES
+file /usr/local/gpa/share/locale/sv/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/sv/LC_MESSAGES/gpa.mo
+file /usr/local/gpa/share/locale/sv/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/sv/LC_MESSAGES/libgpg-error.mo
+file /usr/local/gpa/share/locale/sv/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/sv/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ru/LC_MESSAGES
+file /usr/local/gpa/share/locale/ru/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ru/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/ru/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ru/LC_MESSAGES/gpa.mo
+file /usr/local/gpa/share/locale/ru/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ru/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/id/LC_MESSAGES
+file /usr/local/gpa/share/locale/id/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/id/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/cs/LC_MESSAGES
+file /usr/local/gpa/share/locale/cs/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/cs/LC_MESSAGES/gpa.mo
+file /usr/local/gpa/share/locale/cs/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/cs/LC_MESSAGES/libgpg-error.mo
+file /usr/local/gpa/share/locale/cs/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/cs/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/en@boldquot/LC_MESSAGES
+file /usr/local/gpa/share/locale/en@boldquot/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/en@boldquot/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/zh_CN/LC_MESSAGES
+file /usr/local/gpa/share/locale/zh_CN/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/zh_CN/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/zh_CN/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/zh_CN/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/ar/LC_MESSAGES
+file /usr/local/gpa/share/locale/ar/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/ar/LC_MESSAGES/gpa.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/fr/LC_MESSAGES
+file /usr/local/gpa/share/locale/fr/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/fr/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/fr/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/fr/LC_MESSAGES/gpa.mo
+file /usr/local/gpa/share/locale/fr/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/fr/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/nl/LC_MESSAGES
+file /usr/local/gpa/share/locale/nl/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/nl/LC_MESSAGES/libgpg-error.mo
+file /usr/local/gpa/share/locale/nl/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/nl/LC_MESSAGES/gpa.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/zh_TW/LC_MESSAGES
+file /usr/local/gpa/share/locale/zh_TW/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/zh_TW/LC_MESSAGES/gpa.mo
+file /usr/local/gpa/share/locale/zh_TW/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/zh_TW/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/zh_TW/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/zh_TW/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/nb/LC_MESSAGES
+file /usr/local/gpa/share/locale/nb/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/nb/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/en@quot/LC_MESSAGES
+file /usr/local/gpa/share/locale/en@quot/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/en@quot/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/et/LC_MESSAGES
+file /usr/local/gpa/share/locale/et/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/et/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/hu/LC_MESSAGES
+file /usr/local/gpa/share/locale/hu/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/hu/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/hu/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/hu/LC_MESSAGES/libgpg-error.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/pl/LC_MESSAGES
+file /usr/local/gpa/share/locale/pl/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/pl/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/share/locale/pl/LC_MESSAGES/libgpg-error.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/pl/LC_MESSAGES/libgpg-error.mo
+file /usr/local/gpa/share/locale/pl/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/pl/LC_MESSAGES/gpa.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/es/LC_MESSAGES
+file /usr/local/gpa/share/locale/es/LC_MESSAGES/gpa.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/es/LC_MESSAGES/gpa.mo
+file /usr/local/gpa/share/locale/es/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/es/LC_MESSAGES/gnupg2.mo
+dir group=bin mode=0755 owner=root path=usr/local/gpa/share/locale/gl/LC_MESSAGES
+file /usr/local/gpa/share/locale/gl/LC_MESSAGES/gnupg2.mo group=bin mode=0644 owner=root path=usr/local/gpa/share/locale/gl/LC_MESSAGES/gnupg2.mo
+file /usr/local/gpa/libexec/gpg-protect-tool group=bin mode=0755 owner=root path=usr/local/gpa/libexec/gpg-protect-tool
+file /usr/local/gpa/libexec/gpg-preset-passphrase group=bin mode=0755 owner=root path=usr/local/gpa/libexec/gpg-preset-passphrase
+file /usr/local/gpa/libexec/scdaemon group=bin mode=0755 owner=root path=usr/local/gpa/libexec/scdaemon
+file /usr/local/gpa/libexec/gpg-check-pattern group=bin mode=0755 owner=root path=usr/local/gpa/libexec/gpg-check-pattern
+dir group=other mode=0755 owner=root path=usr/share/applications
+dir group=other mode=0755 owner=root path=usr/share/pixmaps
+dir group=bin mode=0755 owner=root path=usr/share/gpa
+file /usr/local/gpa/share/applications/gpa.desktop group=bin mode=0644 owner=root path=usr/share/applications/gpa.desktop
+file /usr/local/gpa/share/pixmaps/gpa.png group=bin mode=0644 owner=root path=usr/share/pixmaps/gpa.png
+file /usr/local/gpa/share/gpa/gpa-logo.ppm group=bin mode=0644 owner=root path=usr/share/gpa/gpa-logo.ppm
+file /usr/local/gpa/share/gpa/gpa.png group=bin mode=0644 owner=root path=usr/share/gpa/gpa.png
