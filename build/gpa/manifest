@@ -1,4 +1,4 @@
-set name=pkg.fmri value=secos/gpa@0.9.7,0.5.11-0.151.1.7
+set name=pkg.fmri value=cryptos/gpa@0.9.7,0.5.11-0.151.1.7
 set name=pkg.description value="GPA 0.9.7"
 set name=pkg.summary value="GPA 0.9.7"
 set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"

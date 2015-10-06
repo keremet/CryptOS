@@ -276,7 +276,7 @@
 			<!--pkg name="pkg:/secos/mplayer"/>
 			<pkg name="pkg:/secos/gajim"/-->
 			<pkg name="pkg:/cryptos/openoffice_ru"/>
-			<!--pkg name="pkg:/secos/gpa"/-->
+			<pkg name="pkg:/cryptos/gpa"/>
 			<pkg name="pkg:/cryptos/layout_ru"/>
 			<pkg name="pkg:/cryptos/libgstflump3dec"/>
 			<!--pkg name="pkg:/secos/ntfs-3g"/>
