@@ -236,4 +236,5 @@ file /usr/local/xmms-1.2.11/lib/xmms/Output/libSolaris.so group=bin mode=0755 ow
 file /usr/local/xmms-1.2.11/bin/xmms-config group=bin mode=0755 owner=root path=usr/local/xmms-1.2.11/bin/xmms-config
 file /usr/local/xmms-1.2.11/bin/wmxmms group=bin mode=0755 owner=root path=usr/local/xmms-1.2.11/bin/wmxmms
 file /usr/local/xmms-1.2.11/bin/xmms group=bin mode=0755 owner=root path=usr/local/xmms-1.2.11/bin/xmms
-
+depend fmri=library/glib1 type=require
+depend fmri=library/desktop/gtk1 type=require

@@ -283,8 +283,6 @@
 			<pkg name="pkg:/secos/fuse"/-->
 			<pkg name="pkg:/cryptos/unrar"/>
 			<pkg name="pkg:/cryptos/crzvol"/>
-			<pkg name="pkg:/library/glib1"/>
-			<pkg name="pkg:/library/desktop/gtk1"/>
 			<pkg name="pkg:/cryptos/xmms"/>
 			<pkg name="pkg:/communication/conferencing/ekiga"/>
 			<pkg name="pkg:/gnome/media/sound-recorder"/>
