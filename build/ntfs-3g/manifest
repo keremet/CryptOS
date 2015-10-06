@@ -1,0 +1,111 @@
+set name=pkg.fmri value=cryptos/ntfs-3g@2015.3.14,0.5.11-0.151.1.7
+set name=pkg.summary value="ntfs-3g"
+set name=pkg.description value="ntfs-3g"
+set name=info.upstream-url value=https://www.tuxera.com/opensource/ntfs-3g_ntfsprogs-2015.3.14.tgz
+set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"
+set name=variant.arch value=i386
+dir path=usr owner=root group=sys mode=0755
+dir path=usr/bin owner=root group=bin mode=0755
+dir path=sbin owner=root group=sys mode=0755
+dir path=lib owner=root group=bin mode=0755
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/include
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/share
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/lib
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/sbin
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/include/ntfs-3g
+file /usr/local/ntfs-3g/include/ntfs-3g/index.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/index.h
+file /usr/local/ntfs-3g/include/ntfs-3g/attrlist.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/attrlist.h
+file /usr/local/ntfs-3g/include/ntfs-3g/runlist.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/runlist.h
+file /usr/local/ntfs-3g/include/ntfs-3g/realpath.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/realpath.h
+file /usr/local/ntfs-3g/include/ntfs-3g/compress.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/compress.h
+file /usr/local/ntfs-3g/include/ntfs-3g/compat.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/compat.h
+file /usr/local/ntfs-3g/include/ntfs-3g/ioctl.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/ioctl.h
+file /usr/local/ntfs-3g/include/ntfs-3g/acls.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/acls.h
+file /usr/local/ntfs-3g/include/ntfs-3g/types.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/types.h
+file /usr/local/ntfs-3g/include/ntfs-3g/param.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/param.h
+file /usr/local/ntfs-3g/include/ntfs-3g/security.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/security.h
+file /usr/local/ntfs-3g/include/ntfs-3g/attrib.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/attrib.h
+file /usr/local/ntfs-3g/include/ntfs-3g/device_io.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/device_io.h
+file /usr/local/ntfs-3g/include/ntfs-3g/mft.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/mft.h
+file /usr/local/ntfs-3g/include/ntfs-3g/dir.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/dir.h
+file /usr/local/ntfs-3g/include/ntfs-3g/bootsect.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/bootsect.h
+file /usr/local/ntfs-3g/include/ntfs-3g/mst.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/mst.h
+file /usr/local/ntfs-3g/include/ntfs-3g/volume.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/volume.h
+file /usr/local/ntfs-3g/include/ntfs-3g/logfile.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/logfile.h
+file /usr/local/ntfs-3g/include/ntfs-3g/support.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/support.h
+file /usr/local/ntfs-3g/include/ntfs-3g/bitmap.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/bitmap.h
+file /usr/local/ntfs-3g/include/ntfs-3g/cache.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/cache.h
+file /usr/local/ntfs-3g/include/ntfs-3g/unistr.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/unistr.h
+file /usr/local/ntfs-3g/include/ntfs-3g/logging.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/logging.h
+file /usr/local/ntfs-3g/include/ntfs-3g/debug.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/debug.h
+file /usr/local/ntfs-3g/include/ntfs-3g/efs.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/efs.h
+file /usr/local/ntfs-3g/include/ntfs-3g/xattrs.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/xattrs.h
+file /usr/local/ntfs-3g/include/ntfs-3g/device.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/device.h
+file /usr/local/ntfs-3g/include/ntfs-3g/ea.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/ea.h
+file /usr/local/ntfs-3g/include/ntfs-3g/ntfstime.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/ntfstime.h
+file /usr/local/ntfs-3g/include/ntfs-3g/misc.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/misc.h
+file /usr/local/ntfs-3g/include/ntfs-3g/inode.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/inode.h
+file /usr/local/ntfs-3g/include/ntfs-3g/reparse.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/reparse.h
+file /usr/local/ntfs-3g/include/ntfs-3g/collate.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/collate.h
+file /usr/local/ntfs-3g/include/ntfs-3g/object_id.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/object_id.h
+file /usr/local/ntfs-3g/include/ntfs-3g/lcnalloc.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/lcnalloc.h
+file /usr/local/ntfs-3g/include/ntfs-3g/endians.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/endians.h
+file /usr/local/ntfs-3g/include/ntfs-3g/layout.h group=bin mode=0644 owner=root path=usr/local/ntfs-3g/include/ntfs-3g/layout.h
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/share/doc
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/share/man
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/share/doc/ntfs-3g
+file /usr/local/ntfs-3g/share/doc/ntfs-3g/README group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/doc/ntfs-3g/README
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/share/man/man8
+file /usr/local/ntfs-3g/share/man/man8/ntfscp.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfscp.8
+file /usr/local/ntfs-3g/share/man/man8/ntfswipe.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfswipe.8
+link path=usr/local/ntfs-3g/share/man/man8/mount.ntfs-3g.8 target=ntfs-3g.8
+file /usr/local/ntfs-3g/share/man/man8/mkntfs.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/mkntfs.8
+file /usr/local/ntfs-3g/share/man/man8/ntfslabel.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfslabel.8
+file /usr/local/ntfs-3g/share/man/man8/ntfs-3g.secaudit.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfs-3g.secaudit.8
+file /usr/local/ntfs-3g/share/man/man8/ntfstruncate.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfstruncate.8
+file /usr/local/ntfs-3g/share/man/man8/ntfs-3g.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfs-3g.8
+file /usr/local/ntfs-3g/share/man/man8/ntfscmp.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfscmp.8
+file /usr/local/ntfs-3g/share/man/man8/ntfsfallocate.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfsfallocate.8
+file /usr/local/ntfs-3g/share/man/man8/ntfsclone.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfsclone.8
+file /usr/local/ntfs-3g/share/man/man8/ntfscat.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfscat.8
+file /usr/local/ntfs-3g/share/man/man8/ntfsdecrypt.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfsdecrypt.8
+file /usr/local/ntfs-3g/share/man/man8/ntfsresize.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfsresize.8
+file /usr/local/ntfs-3g/share/man/man8/ntfsfix.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfsfix.8
+link path=usr/local/ntfs-3g/share/man/man8/mkfs.ntfs.8 target=mkntfs.8
+link path=usr/local/ntfs-3g/share/man/man8/mount.lowntfs-3g.8 target=ntfs-3g.8
+file /usr/local/ntfs-3g/share/man/man8/ntfs-3g.probe.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfs-3g.probe.8
+file /usr/local/ntfs-3g/share/man/man8/ntfsprogs.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfsprogs.8
+file /usr/local/ntfs-3g/share/man/man8/ntfsinfo.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfsinfo.8
+file /usr/local/ntfs-3g/share/man/man8/ntfsundelete.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfsundelete.8
+file /usr/local/ntfs-3g/share/man/man8/ntfs-3g.usermap.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfs-3g.usermap.8
+file /usr/local/ntfs-3g/share/man/man8/ntfscluster.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfscluster.8
+file /usr/local/ntfs-3g/share/man/man8/ntfsls.8 group=bin mode=0644 owner=root path=usr/local/ntfs-3g/share/man/man8/ntfsls.8
+dir group=bin mode=0755 owner=root path=usr/local/ntfs-3g/lib/pkgconfig
+file /usr/local/ntfs-3g/lib/libntfs-3g.la group=bin mode=0755 owner=root path=usr/local/ntfs-3g/lib/libntfs-3g.la
+file /usr/local/ntfs-3g/lib/libntfs-3g.a group=bin mode=0644 owner=root path=usr/local/ntfs-3g/lib/libntfs-3g.a
+link path=usr/local/ntfs-3g/lib/libntfs-3g.so target=/lib/libntfs-3g.so
+file /usr/local/ntfs-3g/lib/pkgconfig/libntfs-3g.pc group=bin mode=0644 owner=root path=usr/local/ntfs-3g/lib/pkgconfig/libntfs-3g.pc
+file /usr/local/ntfs-3g/sbin/mkntfs group=bin mode=0755 owner=root path=usr/local/ntfs-3g/sbin/mkntfs
+file /usr/local/ntfs-3g/sbin/ntfsundelete group=bin mode=0755 owner=root path=usr/local/ntfs-3g/sbin/ntfsundelete
+file /usr/local/ntfs-3g/sbin/ntfsresize group=bin mode=0755 owner=root path=usr/local/ntfs-3g/sbin/ntfsresize
+file /usr/local/ntfs-3g/sbin/ntfslabel group=bin mode=0755 owner=root path=usr/local/ntfs-3g/sbin/ntfslabel
+file /usr/local/ntfs-3g/sbin/ntfsclone group=bin mode=0755 owner=root path=usr/local/ntfs-3g/sbin/ntfsclone
+file /usr/local/ntfs-3g/sbin/ntfscp group=bin mode=0755 owner=root path=usr/local/ntfs-3g/sbin/ntfscp
+file /usr/local/ntfs-3g/bin/ntfsinfo group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin/ntfsinfo
+file /usr/local/ntfs-3g/bin/ntfs-3g.secaudit group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin/ntfs-3g.secaudit
+file /usr/local/ntfs-3g/bin/ntfsfix group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin/ntfsfix
+file /usr/local/ntfs-3g/bin/ntfscat group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin/ntfscat
+file /usr/local/ntfs-3g/bin/ntfs-3g.usermap group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin/ntfs-3g.usermap
+file /usr/local/ntfs-3g/bin/ntfs-3g.probe group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin/ntfs-3g.probe
+file /usr/local/ntfs-3g/bin/ntfsls group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin/ntfsls
+file /usr/local/ntfs-3g/bin/ntfscmp group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin/ntfscmp
+file /usr/local/ntfs-3g/bin/ntfscluster group=bin mode=0755 owner=root path=usr/local/ntfs-3g/bin/ntfscluster
+file /lib/libntfs-3g.so.86.0.0 group=root mode=0755 owner=root path=lib/libntfs-3g.so.86.0.0
+link path=lib/libntfs-3g.so.86 target=/lib/libntfs-3g.so.86.0.0
+link path=lib/libntfs-3g.so target=/lib/libntfs-3g.so.86.0.0
+link path=sbin/mkfs.ntfs target=/usr/local/ntfs-3g/sbin/mkntfs
+file /usr/bin/ntfs-3g group=root mode=0755 owner=root path=usr/bin/ntfs-3g
+file /usr/bin/lowntfs-3g group=root mode=0755 owner=root path=usr/bin/lowntfs-3g
+

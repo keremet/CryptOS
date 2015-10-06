@@ -44,6 +44,9 @@ cashed_download ftp://ftp.gnupg.org/gcrypt/npth/npth-1.2.tar.bz2
 cashed_download ftp://ftp.gnupg.org/gcrypt/gnupg/gnupg-2.1.6.tar.bz2
 cashed_download ftp://ftp.gnupg.org/gcrypt/pinentry/pinentry-0.9.5.tar.bz2
 
+#ntfs-3g
+cashed_download https://www.tuxera.com/opensource/ntfs-3g_ntfsprogs-2015.3.14.tgz
+
 #gtk
 cashed_download http://cairographics.org/releases/cairo-1.14.2.tar.xz
 cashed_download http://cairographics.org/releases/pixman-0.32.6.tar.gz

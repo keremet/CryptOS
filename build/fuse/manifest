@@ -1,0 +1,14 @@
+set name=pkg.fmri value=cryptos/fuse@0.20100615.2,0.5.11-0.151.1.7
+set name=pkg.summary value="File system in User Space"
+set name=pkg.description value="FUSE stands for 'File system in User Space'. It provides a simple interface to allow implementation of a fully functional file system in user-space. FUSE originates from the Linux community and is included in the Linux kernel (2.6.14+)."
+set name=info.upstream-url value=http://hub.opensolaris.org/bin/view/Project+fuse/
+set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"
+set name=variant.arch value=i386
+dir group=sys mode=0755 owner=root path=usr
+dir group=sys mode=0755 owner=root path=usr/kernel
+dir group=sys mode=0755 owner=root path=usr/kernel/drv
+dir group=sys mode=0755 owner=root path=usr/kernel/drv/amd64
+file drv/amd64/fuse group=bin mode=0755 owner=root path=usr/kernel/drv/amd64/fuse
+file drv/fuse.conf group=bin mode=0755 owner=root path=usr/kernel/drv/fuse.conf
+file drv/fuse group=bin mode=0755 owner=root path=usr/kernel/drv/fuse
+driver devlink=type=ddi_pseudo;name=fuse\t\D name=fuse perms="* 0666 root sys"
