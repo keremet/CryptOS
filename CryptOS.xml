@@ -273,8 +273,8 @@
 			<pkg name="pkg:/editor/diagram/dia"/>
 			<pkg name="pkg:/cryptos/libflashplayer"/>
 			<pkg name="pkg:/cryptos/firefox31"/>
-			<!--pkg name="pkg:/cryptos/mplayer"/>
-			<pkg name="pkg:/cryptos/gajim"/-->
+			<pkg name="pkg:/cryptos/mplayer"/>
+			<!--pkg name="pkg:/cryptos/gajim"/-->
 			<pkg name="pkg:/cryptos/openoffice_ru"/>
 			<pkg name="pkg:/cryptos/gpa"/>
 			<pkg name="pkg:/cryptos/layout_ru"/>

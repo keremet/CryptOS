@@ -1,0 +1,9 @@
+set name=pkg.fmri value=cryptos/mplayer@1.1,0.5.11-0.151.1.7
+set name=pkg.summary value="media player"
+set name=pkg.description value="MPlayer is a media player"
+set name=info.upstream-url value=http://www.mplayerhq.hu/
+set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"
+set name=variant.arch value=i386
+dir  path=usr owner=root group=sys mode=0755
+dir  path=usr/bin owner=root group=bin mode=0755
+file mplayer path=usr/bin/mplayer owner=root group=bin mode=0555
