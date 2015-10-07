@@ -24,7 +24,7 @@
     live CD iso and usb image
 -->
 
-<distribution name="CryptOS_151005">
+<distribution name="CryptOS_151007">
 	<distro_constr_params>
 		<!--
 		     Where to build. This can be a zfs dataset or a mountpoint.
@@ -272,7 +272,7 @@
 			<pkg name="pkg:/image/editor/gimp"/>
 			<pkg name="pkg:/editor/diagram/dia"/>
 			<pkg name="pkg:/cryptos/libflashplayer"/>
-			<pkg name="pkg:/cryptos/firefox31"/>
+			<pkg name="pkg:/cryptos/firefox37"/>
 			<pkg name="pkg:/cryptos/mplayer"/>
 			<!--pkg name="pkg:/cryptos/gajim"/-->
 			<pkg name="pkg:/cryptos/openoffice_ru"/>
@@ -316,7 +316,7 @@
 			    the first line of /etc/release will be used as
 			    the title for the grub menu
 			-->
-			<title>CryptOS_151005</title>
+			<title>CryptOS_151007</title>
 
 			<entry>
 				<title_suffix>Enable SSH</title_suffix>

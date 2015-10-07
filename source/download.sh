@@ -30,6 +30,9 @@ cashed_download https://launchpad.net/gst-fluendo-mp3/trunk/0.10.32/+download/gs
 #firefox31
 cashed_download http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/31.0/contrib/solaris_pkgadd/firefox-31.0.en-US.opensolaris-i386-pkg.bz2
 
+#firefox37
+cashed_download http://opensxce.org/.FF/37/i386/SUNWfirefox37_supports_FlashPlugin__OpenSolaris_snv_130_i386.pkg.bz2
+
 #openoffice
 cashed_download http://www.openfoundry.org/of/download_path/osscd/3.4.0m1_Rev1227012/OOo_3.4.0_Solaris_x86_install_ru.tar.gz
 
