@@ -108,4 +108,4 @@ link path=lib/libntfs-3g.so target=/lib/libntfs-3g.so.86.0.0
 link path=sbin/mkfs.ntfs target=/usr/local/ntfs-3g/sbin/mkntfs
 file /usr/bin/ntfs-3g group=root mode=0755 owner=root path=usr/bin/ntfs-3g
 file /usr/bin/lowntfs-3g group=root mode=0755 owner=root path=usr/bin/lowntfs-3g
-
+depend fmri=cryptos/fuse type=require

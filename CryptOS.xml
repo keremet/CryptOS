@@ -280,7 +280,6 @@
 			<pkg name="pkg:/cryptos/layout_ru"/>
 			<pkg name="pkg:/cryptos/libgstflump3dec"/>
 			<pkg name="pkg:/cryptos/ntfs-3g"/>
-			<pkg name="pkg:/cryptos/fuse"/>
 			<pkg name="pkg:/cryptos/unrar"/>
 			<pkg name="pkg:/cryptos/crzvol"/>
 			<pkg name="pkg:/cryptos/xmms"/>
