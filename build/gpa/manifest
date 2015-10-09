@@ -326,7 +326,7 @@ file /usr/local/gpa/libexec/gpg-check-pattern group=bin mode=0755 owner=root pat
 dir group=other mode=0755 owner=root path=usr/share/applications
 dir group=other mode=0755 owner=root path=usr/share/pixmaps
 dir group=bin mode=0755 owner=root path=usr/share/gpa
-file /usr/local/gpa/share/applications/gpa.desktop group=bin mode=0644 owner=root path=usr/share/applications/gpa.desktop
+file gpa.desktop group=bin mode=0644 owner=root path=usr/share/applications/gpa.desktop
 file /usr/local/gpa/share/pixmaps/gpa.png group=bin mode=0644 owner=root path=usr/share/pixmaps/gpa.png
 file /usr/local/gpa/share/gpa/gpa-logo.ppm group=bin mode=0644 owner=root path=usr/share/gpa/gpa-logo.ppm
 file /usr/local/gpa/share/gpa/gpa.png group=bin mode=0644 owner=root path=usr/share/gpa/gpa.png
