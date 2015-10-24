@@ -1,6 +1,10 @@
 #!/bin/sh
 cashed_download(){
-	FILENAME=`basename $1`
+	if [ -z $2 ]
+	then FILENAME=`basename $1`
+	else FILENAME=$2
+	fi
+
 	if ! [ -f $FILENAME ]; then
 		curl -k -L $1 > $FILENAME
 		if [ $? -ne 0 ]; then
@@ -49,6 +53,9 @@ cashed_download ftp://ftp.gnupg.org/gcrypt/pinentry/pinentry-0.9.5.tar.bz2
 
 #ntfs-3g
 cashed_download https://www.tuxera.com/opensource/ntfs-3g_ntfsprogs-2015.3.14.tgz
+
+#xxkb
+cashed_download http://sourceforge.net/projects/xxkb/files/xxkb-1.11.1-src.tar.gz/download xxkb-1.11.1-src.tar.gz
 
 #gtk
 cashed_download http://cairographics.org/releases/cairo-1.14.2.tar.xz

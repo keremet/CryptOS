@@ -10,3 +10,4 @@ file layout_ru.sh group=bin mode=0755 owner=root path=usr/bin/layout_ru.sh
 dir group=other mode=0755 owner=root path=usr/share/gnome
 dir group=bin mode=0755 owner=root path=usr/share/gnome/autostart
 file layout_ru.sh.desktop group=bin mode=0644 owner=root path=usr/share/gnome/autostart/layout_ru.sh.desktop
+depend fmri=cryptos/xxkb type=require
