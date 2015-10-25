@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Mount encrypted zvol
+Name[ru]=Подключить шифрованную область диска
+Comment=
+Exec=crzvol_mount.sh
+Terminal=true
+Type=Application
+Categories=System;
+StartupNotify=true

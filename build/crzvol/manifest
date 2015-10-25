@@ -8,3 +8,5 @@ dir  path=usr/bin owner=root group=bin mode=0755
 file crzvol_unmount.sh path=usr/bin/crzvol_unmount.sh owner=root group=bin mode=0755
 file crzvol_mount.sh path=usr/bin/crzvol_mount.sh owner=root group=bin mode=0755
 file crzvol_create.sh path=usr/bin/crzvol_create.sh owner=root group=bin mode=0755
+file crzvol_unmount.desktop path=usr/share/applications/crzvol_unmount.desktop owner=root group=bin mode=0644
+file crzvol_mount.desktop path=usr/share/applications/crzvol_mount.desktop owner=root group=bin mode=0644

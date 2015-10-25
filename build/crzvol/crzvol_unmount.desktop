@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Unmount encrypted zvol
+Name[ru]=Отключить шифрованную область диска
+Comment=
+Exec=crzvol_unmount.sh
+Terminal=true
+Type=Application
+Categories=System;
+StartupNotify=true

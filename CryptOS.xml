@@ -24,7 +24,7 @@
     live CD iso and usb image
 -->
 
-<distribution name="CryptOS_151007">
+<distribution name="CryptOS_151025">
 	<distro_constr_params>
 		<!--
 		     Where to build. This can be a zfs dataset or a mountpoint.
@@ -315,7 +315,7 @@
 			    the first line of /etc/release will be used as
 			    the title for the grub menu
 			-->
-			<title>CryptOS_151007</title>
+			<title>CryptOS_151025</title>
 
 			<entry>
 				<title_suffix>Enable SSH</title_suffix>
