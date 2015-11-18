@@ -1,4 +1,4 @@
-set name=pkg.fmri value=pkg://openindiana.org/slim_install@0.1,5.11-0.151.1.7:20121003T222433Z
+set name=pkg.fmri value=cryptos/livecd@0.1,5.11-0.151.1.7
 set name=org.opensolaris.consolidation value=solaris_re
 set name=variant.arch value=i386
 set name=variant.opensolaris.zone value=global value=nonglobal
@@ -223,7 +223,6 @@ depend fmri=gnome/gnome-remote-desktop@0.5.11-0.151.1.7 type=require
 depend fmri=gnome/gnome-screenshot@0.5.11-0.151.1.7 type=require
 depend fmri=gnome/gnome-search-tool@0.5.11-0.151.1.7 type=require
 depend fmri=gnome/gnome-session@0.5.11-0.151.1.7 type=require
-depend fmri=gnome/help-viewer/yelp@0.5.11-0.151.1.7 type=require
 depend fmri=gnome/locale/ru@0.5.11-0.151.1.7 type=require
 depend fmri=gnome/media/gnome-media@0.5.11-0.151.1.7 type=require
 depend fmri=gnome/media/gnome-media-player@0.5.11-0.151.1.7 type=require
@@ -348,7 +347,6 @@ depend fmri=library/python-2/python-compizconfig-26@0.5.11-0.151.1.7 type=requir
 depend fmri=library/python-2/python-dbus-26@0.5.11-0.151.1.7 type=require
 depend fmri=library/python-2/python-extra-26@0.5.11-0.151.1.7 type=require
 depend fmri=library/python-2/python-gnome-desktop-26@0.5.11-0.151.1.7 type=require
-depend fmri=library/python-2/python-gnome-extras-26@0.5.11-0.151.1.7 type=require
 depend fmri=library/python-2/python-gnome-libs-26@0.5.11-0.151.1.7 type=require
 depend fmri=library/python-2/python-gst-26@0.5.11-0.151.1.7 type=require
 depend fmri=library/python-2/python-notify-26@0.1.1-0.151.1.7 type=require
@@ -387,8 +385,6 @@ depend fmri=network/ssh@0.5.11-0.151.1.7 type=require
 depend fmri=network/ssh/ssh-key@0.5.11-0.151.1.7 type=require
 depend fmri=network/telnet@0.5.11-0.151.1.7 type=require
 depend fmri=package/pkg@0.5.11-0.151.1.5 type=require
-depend fmri=package/pkg/package-manager@0.5.11-0.151.1.5 type=require
-depend fmri=package/pkg/update-manager@0.5.11-0.151.1.5 type=require
 depend fmri=package/rpm@0.5.11-0.151.1.7 type=require
 depend fmri=package/svr4@0.5.11-0.151.1.7 type=require
 depend fmri=print/cups@1.4.2-0.151.1.7 type=require
