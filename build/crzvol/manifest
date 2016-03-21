@@ -5,6 +5,7 @@ set name=maintainer value="Andrey Sokolov <keremet@solaris.kirov.ru>"
 set name=variant.arch value=i386
 dir  path=usr owner=root group=sys mode=0755
 dir  path=usr/bin owner=root group=bin mode=0755
+file lofiadm1 path=usr/bin/lofiadm1 owner=root group=bin mode=0755
 file crzvol_unmount.sh path=usr/bin/crzvol_unmount.sh owner=root group=bin mode=0755
 file crzvol_mount.sh path=usr/bin/crzvol_mount.sh owner=root group=bin mode=0755
 file crzvol_create.sh path=usr/bin/crzvol_create.sh owner=root group=bin mode=0755

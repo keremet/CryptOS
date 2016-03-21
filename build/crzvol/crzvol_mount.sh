@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo lofiadm -c aes-256-cbc -a /dev/zvol/rdsk/rpool/d /dev/lofi/1
+sudo lofiadm1 -c aes-256-cbc -a /dev/zvol/rdsk/rpool/d /dev/lofi/1
 if [ "$?" != "0" ]
 then echo "Ошибка lofiadm. Нажмите Enter для продолжения"
  read
